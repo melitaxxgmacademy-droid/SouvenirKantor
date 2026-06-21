@@ -82,12 +82,30 @@
         <div class="row justify-content-center">
 
           <div class="col-lg-8" data-aos="zoom-in" data-aos-delay="200">
+            <style>
+              /* Triangle layout for the hero title - keeps existing font sizes */
+              .hero-title { text-align: center; }
+              .hero-title .hero-line { display: block; margin-left: auto; margin-right: auto; }
+              .hero-title .line-1 { max-width: 100%; }
+              .hero-title .line-2 { max-width: 72%; }
+              .hero-title .line-3 { max-width: 36%; }
+              @media (max-width: 992px) {
+                .hero-title .line-2, .hero-title .line-3 { max-width: 86%; }
+              }
+              @media (max-width: 576px) {
+                .hero-title .line-1, .hero-title .line-2, .hero-title .line-3 { max-width: 100%; }
+              }
+            </style>
             <div class="hero-content text-center">
               <div class="hero-badge" data-aos="fade-down" data-aos-delay="300">
                 <i class="bi bi-star-fill"></i>
                 <span>Vendor Souvenir Kantor Premium</span>
               </div>
-              <h1 class="hero-title" data-aos="fade-up" data-aos-delay="400">Souvenir Kantor Custom yang Membuat Brand Anda Diingat</h1>
+              <h1 class="hero-title" data-aos="fade-up" data-aos-delay="400">
+                <span class="hero-line line-1">Souvenir Kantor Custom yang</span>
+                <span class="hero-line line-2">Membuat Brand Anda</span>
+                <span class="hero-line line-3">Diingat</span>
+              </h1>
               <p class="hero-description" data-aos="fade-up" data-aos-delay="500">Produksi tumbler custom, buku agenda, seminar kit, pulpen, mug, hingga merchandise eksklusif untuk event perusahaan, onboarding karyawan, dan hadiah klien.</p>
 
               <div class="hero-actions" data-aos="fade-up" data-aos-delay="600">
