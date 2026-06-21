@@ -232,7 +232,7 @@ h6 {
 @media (min-width: 1200px) {
   .navmenu ul {
     justify-content: center;
-    overflow: hidden;
+    overflow: visible;
   }
 
   .navmenu li { flex-shrink: 1; min-width: 0; }
