@@ -1,0 +1,7 @@
+User-agent: *
+Allow: /
+Disallow: /forms/
+Disallow: /starter-page.html
+Disallow: /service-details.html
+
+Sitemap: https://souvenir-kantor.vercel.app/sitemap.xml
